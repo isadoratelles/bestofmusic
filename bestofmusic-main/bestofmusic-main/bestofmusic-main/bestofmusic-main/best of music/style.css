@@ -5,12 +5,9 @@
 
 body{
     background-color: #151F3D;
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
+    color: #C070FF;
 }
 .principal{
-    background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -30,18 +27,27 @@ body{
     text-decoration: none;
 }
 
-.botao_secundario{
+.botao{
     background-color: transparent;
-    border: 2px solid white;
     border-radius: 15px;
     padding: 5px;
-    color: white;
     display: block;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-.container_aviso{
-    font-size: 15px;
-    font-weight: 400;
+.container_imagem{
+    margin:9em 0 2em 12em;
+
 }
 
+.container_caixa{
+    margin: 0 0;
+
+}
+
+.container_imagem2{
+    margin: 1em 0 0 8em;
+    width: 30em;
+}

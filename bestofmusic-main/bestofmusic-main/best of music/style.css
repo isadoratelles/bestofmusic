@@ -5,12 +5,9 @@
 
 body{
     background-color: #151F3D;
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
+    color: #C070FF;
 }
 .principal{
-    background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -30,18 +27,62 @@ body{
     text-decoration: none;
 }
 
-.botao_secundario{
+.botao{
     background-color: transparent;
-    border: 2px solid white;
     border-radius: 15px;
     padding: 5px;
-    color: white;
     display: block;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-.container_aviso{
-    font-size: 15px;
-    font-weight: 400;
+.container_imagem{
+    margin:9em 0 2em 12em;
+    width: 50%;
 }
 
+.container_caixa{
+    margin: 0 0;
+
+}
+
+.container_imagem2{
+    margin: 1em 0 0 8em;
+    width: 30em;
+}
+
+.descricao_texto{
+    color:white;
+    margin: 40px 20px 60px 80px;
+    font-size:25px ;
+}
+
+.secundario_imagem{
+    width: 100%;
+
+}
+
+.secundario{
+    align-items:center;
+    margin: 0 5em;
+}
+
+.descricao_Titulo{
+    font-size:  40px;
+    margin: 240px 20px 60px 10px;
+}
+
+.container_descricao{
+    padding: 5px;
+}
+
+.secundario_botao{
+    display: inline-block;
+    padding: 1em;
+    margin-top: 1em;
+    color:black;
+    background-color:blueviolet;
+    border: 4px solid #000000;
+    
+}
